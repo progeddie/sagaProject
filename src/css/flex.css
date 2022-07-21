@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+:root {
+  width: 99vw;
+  height: 99vh;
+  background-color: #ebecef;
+}
+
+.stretch {
+  height: stretch;
+}
+
+.flex_section_column{
+  /* border: 2px solid #c2c4cb; */
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_section_row{
+  /* border: 2px solid #c2c4cb; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.left_box{
+  min-width: 470px;
+  width: 470px;
+  /* justify-content: space-between; */
+  min-height: 99%;
+}
+
+.right_box{
+  /* min-width: 760px; */
+  margin-left: 10px;
+  min-height: 99%;
+  height: 99vh;
+}
+
+.box_border{
+  width: 95%;
+  border: solid 2px #c2c4cb;
+  padding: 3px;
+  margin: 0px;
+}
+
+.align_center{
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+} 
+
+.flex_start{
+  display: flex;
+  width: 99%;
+  justify-content: flex-start;
+}
+
+.flex_center{
+  display: flex;
+  justify-content: center;
+}
+
+.fontsize_13{
+  font-size: 13px;
+  line-height: 14px;
+  white-space: nowrap;
+  text-align: start;
+}
+
+.split {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #ebecef;
+}
+
+.gutter {
+  background-color: gainsboro;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  min-width: 10px;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+  cursor: col-resize;
+}

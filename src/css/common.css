@@ -1,0 +1,309 @@
+input {
+  padding:0px 0px 0px 8px;
+}
+/* 모달 (시작) */
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+/* 모달 (끝) */
+
+/* 기본UI (시작) */
+.topArea {
+  width: 1306px;
+  height: 85px;
+  border: 1px solid #ebecef;
+  background-color: #ebecef;
+}
+
+.topAreaLeft {
+  float: left;
+  width: 906px;
+  height: 37px;
+  background-color: #ebecef;
+}
+
+.topAreaRight {
+  float: right;
+  width: 400px;
+  height: 37px;
+  background-color: #ebecef;
+}
+
+.searchArea {
+  width: 1294px;
+  height: 80px;
+  border: 1px solid #c2c4cb;
+  margin: 5px 0px 0px 5px;
+  background-color: #ebecef;
+}
+
+.contentsArea {
+  width: 1306px;
+  height: 833px;
+  border: 1px solid #c2c4cb;
+  background-color: #ebecef;
+}
+
+.leftArea {
+  float: left;
+  width: 360px;
+  height: 734px;
+  border: 1px solid #c2c4cb;
+  margin: 5px 0px 0px 5px;
+  background-color: #ebecef;
+}
+
+.mapArea {
+  float: left;
+  width: 927px;
+  height: 734px;
+  border: 1px solid #c2c4cb;
+  margin: 5px 0px 0px 5px;
+  background-color: #ebecef;
+}
+
+/* 기본UI (끝) */
+
+.blueLabel {
+  padding: 3px 0px;
+  border-radius: 2px;
+  border: 2px solid #0066cc;
+  text-align: center;
+  width: 80px;
+  height: 17px;
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.grayLabel {
+  padding: 3px 0px;
+  border-radius: 2px;
+  text-align: center;
+  width: 80px;
+  height: 17px;
+  line-height: 17px;
+  font-weight: bold;  
+  position: relative;
+  top: 2px;
+  border-top: 2px solid #c2c4cb;
+  border-left: 2px solid #c2c4cb;
+  border-right: 2px solid #c2c4cb;
+  border-bottom: 2px solid #ebecef;
+}
+
+.blueLabelSmall {
+  padding: 2px 0px;
+  border-radius: 2px;
+  border: 1px solid #0066cc;
+  text-align: center;
+  width: 30px;
+  height: 17px;
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.blueLabelText {
+  padding: 3px 0px;
+  border-radius: 2px;
+  color: blue;
+  font-weight: bold;
+  border: 2px solid #0066cc;
+  text-align: center;
+  width: 80px;
+  height: 17px;
+  line-height: 17px;
+}
+
+.blueText {
+  color: blue;
+  font-weight: bold;
+}
+
+.baseInput {
+  width: 100px;
+  height: 23px;
+}
+
+.baseInputSmall {
+  width: 50px;
+  height: 19px;
+}
+
+.baseSelect {
+  width: 100px;
+  height: 27px;
+}
+
+.baseSelectSmall {
+  width: 60px;
+  height: 23px;
+}
+
+.areaButton {
+  background-color: #3f51b5;
+  color: white;
+  padding: 3px 0px;
+  width: 30px;
+  border-radius: 5px;
+  height: 26px;
+}
+
+.areaButtonSmall {
+  background-color: #3f51b5;
+  color: white;
+  padding: 1px 0px;
+  width: 22px;
+  border-radius: 5px;
+  height: 23px;
+}
+
+.popContent {
+  position: absolute;
+  top: 120px;
+  border: 1px solid #c2c4cb;
+  width: 588px;
+  height: 537px;
+}
+
+.destBorder {
+  width: 282px;
+  height: 78px;
+  background-color: #FFF;
+  border: 1px solid #c2c4cb;
+}
+
+.contentWrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
+
+.shopFeeContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+div .react-confirm-alert-body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  padding: 30px;
+  text-align: left;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 75px rgb(0 0 0 / 13%);
+  text-align: center;
+  color: #666;
+}
+
+div .react-confirm-alert-body h1{
+  padding: 10px 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+div .react-confirm-alert-button-group {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.MuiAlert-root {
+  display: flex;
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  border-radius: 4px;
+  letter-spacing: 0.01071em;
+  background-color: transparent;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 탭 스타일링 (시작) 
+ul {
+  list-style: none;
+}
+
+.tabmenu {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.tabmenu ul li {
+  display: inline-block;
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  background: #f9f9f9;
+  line-height: 20px;
+  border: 1px solid #babfc7;
+  border-radius: 4px;
+}
+.tabmenu label {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+}
+.tabmenu input[type="radio"] {
+  display: none;
+}
+.tabCon {
+  display: none;
+  text-align: left;
+  padding: 0px;
+  position: relative;
+  left: 0;
+  top: 0px;
+  box-sizing: border-box;
+  border: 1px solid #babfc7;
+  width: 488px;
+}
+.tabmenu input:checked ~ label {
+  background: rgb(247, 246, 246);
+}
+.tabmenu input:checked ~ .tabCon {
+  display: block;
+}
+*/
+/* 탭 스타일링 (끝) */ 
